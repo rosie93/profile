@@ -1,0 +1,95 @@
+:root{
+  background:radial-gradient(#1f0e30 0%,#030016 40%) -10vw 20vh no-repeat #030016;
+}
+img {
+  border-radius: 50%;
+  box-shadow: 5px 10px 10px #ebf6f4;
+  width: 150px;
+  height: 150px;
+
+}
+h1 {
+  font-family: "road rage";
+  font-style: italic;
+  font-size: 100;
+  font-weight: 700;
+  color: #fe417b;
+  text-shadow: #a07d96 3px 2px;
+  display:inline-block;
+  transform:rotate(-5deg);
+}
+p{
+  font-family: 'Noto Serif', serif;
+  font-size: 60;
+  font-weight: 400;
+  color: #FEFFAC;
+  margin: 40px;
+}
+
+h2{
+  color: #FEFFAC;
+  text-align: center;
+}
+
+i{
+  color: #FEFFAC;
+  size: 600;
+  text-align: center;
+
+}
+a{
+  color: aliceblue;
+  text-align: center;
+  color: #FEFFAC;
+  margin: 40px;
+}
+
+li{
+  text-align: center;
+}
+#introduction{
+  text-align: center;
+  margin: 5 auto;
+  display: block;
+}
+
+#picture{
+  text-align: center;
+  margin: 5 auto;
+  display: block;
+}
+ #bio{
+  text-align: center;
+  margin: 40 auto;
+  display: block;
+}
+#social{
+  text-align: center;
+  margin: 40 auto;
+  display: block;
+}
+#container {
+  width: 500px;
+  margin: 0 auto;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
